@@ -5,6 +5,6 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . .
 # Compile the Java program
-RUN javac Multiplication.java
+RUN javac Multiplication2.java
 # Command to run the program
-CMD ["java", "Multiplication"]
+CMD ["java", "Multiplication2"]
